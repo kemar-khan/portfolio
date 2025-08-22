@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akmal Hariz Bin Azidi - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body data-theme="dark">
+    <canvas id="starfield"></canvas>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Kemar's Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#activities" class="nav-link">Activities</a></li>
+                <li><a href="#volunteerism" class="nav-link">Volunteerism</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fas fa-sun"></i></button></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/gmbr solid.jpg" alt="Akmal Hariz Profile" class="profile-image fade-in">
+            <h1 class="hero-title fade-in">Akmal Hariz Bin Azidi</h1>
+            <h2 class="hero-subtitle fade-in">CS @ UM</h2>
+
+            <p class="hero-description fade-in">Building apps, crunching data, and crafting digital experiences</p>
+            <a href="assets/Resume - Akmal Hariz.pdf" class="cta-button fade-in">
+                <i class="fas fa-download"></i>
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Projects</h2>
+            <div class="projects-grid">
+                <div class="card project-card fade-in">
+                    <img src="images/sf1.png" alt="Service Flex Project" class="project-image">
+                    <h3>Service Flex Mobile App</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Android Studio</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>User authentication system</li>
+                        <li>Comprehensive service listings</li>
+                        <li>Booking management functionality</li>
+                        <li>Real-time Firebase integration</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card fade-in">
+                    <img src="images/Screenshot 2025-08-22 115033.png" alt="Coffee DBMS Project" class="project-image">
+                    <h3>He&She Coffee DBMS</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Oracle</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Optimized stock management system</li>
+                        <li>Comprehensive inventory tracking</li>
+                        <li>Database design and implementation</li>
+                        <li>Query optimization for performance</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card fade-in">
+                    <img src="images/Screenshot 2025-08-22 120538.png" alt="Obesity Prediction Project" class="project-image">
+                    <h3>Obesity Prediction</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Predictive model development</li>
+                        <li>Demographic data analysis</li>
+                        <li>Lifestyle factor integration</li>
+                        <li>Statistical model validation</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card fade-in">
+                    <img src="images/flutter.jpeg" alt="Energy Prediction Project" class="project-image">
+                    <h3>Personal Finance WebApp</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">FlutterFlow</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <ul class="project-features">
+                        <li>Tracks daily income and expenses</li>
+                        <li>Provides budgeting tools and spending insights</li>
+                        <li>Expense categorization and skills</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills</h2>
+            <div class="skills-grid">
+                <div class="card skill-category fade-in">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            Java
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            Python
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            SQL
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            JavaScript
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            HTML/CSS
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card skill-category fade-in">
+                    <h3><i class="fas fa-database"></i> Databases & Analytics</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            Oracle DB
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            Firebase
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            Machine Learning
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="card skill-category fade-in">
+                    <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            Android Studio
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            Git/GitHub
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-laptop-code"></i>
+                            VS Code
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            Flutter
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Education</h2>
+            <div class="card fade-in">
+                <div class="education-item">
+                    <h3 class="education-title">Bachelor of Computer Science (Information Systems)</h3>
+                    <p class="education-institution">Universiti Malaya</p>
+                    <p class="education-details">2023–2027 | CGPA 3.50 (4/7 Semesters) </p>
+                </div>
+                <div class="education-item">
+                    <h3 class="education-title">Foundation in Life Sciences</h3>
+                    <p class="education-institution">Universiti Malaya</p>
+                    <p class="education-details">2022–2023 | CGPA 3.58</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Extra-Curricular Activities</h2>
+            <div class="activities-grid">
+                <div class="card activity-card fade-in">
+                    <h3>Data Analytics Club (Executive Committee)</h3>
+                    <ul class="activity-list">
+                        <li>Event Management Associate|DSDR</li>
+                        <li>Program Protocol Associate|DataHacks</li>
+                        <li>Program Protocol Associate|Datathon</li>
+
+                    </ul>
+                </div>
+
+                <div class="card activity-card fade-in">
+                    <h3>PEKOM (Executive Committee)</h3>
+                    <ul class="activity-list">
+                        <li>Head of Program and Protocol Member|ISD Day 2025</li>
+                        <li>Program and Protocol Member|MYTECH Career Fair 2025</li>
+                        <li>Program and Protocol Member|Dean's Cup 2024 </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteerism Section -->
+    <section id="volunteerism" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Volunteerism</h2>
+            <div class="volunteer-grid">
+                <div class="card volunteer-card fade-in">
+                    <img src = "images/krt.jpeg" alt="Community" class="volunteerism-image">
+                    <h3>Community Volunteer</h3>
+                    <p class="volunteer-year">2022</p>
+                    <p class="volunteer-description">Participated in community outreach programs at Chow Kit, providing assistance and support to local communities in need.</p>
+                </div>
+
+                <div class="card volunteer-card fade-in">
+                     <img src = "images/robomania.jpeg" alt="Community" class="volunteerism-image">
+                    <h3>Robomania </h3>
+                    <p class="volunteer-year">2024</p>
+                    <p class="volunteer-description">Served as field runner for robotics competition, ensuring smooth operations and supporting participants throughout the event.</p>
+                </div>
+
+                <div class="card volunteer-card fade-in">
+                     <img src = "images/tcs.jpeg" alt="Community" class="volunteerism-image">
+                    <h3>Learning Facilitator</h3>
+                    <p class="volunteer-year">2024</p>
+                    <p class="volunteer-description">Taught AI fundamentals to students at SK Bukit Kuda, introducing young minds to artificial intelligence concepts and applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Me</h2>
+            <div class="contact-grid">
+                <div class="card contact-item fade-in">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <a href="mailto:akmalhariz@example.com" class="contact-link">akmal.hariz.5504@gmail.com</a>
+                </div>
+
+                <div class="card contact-item fade-in">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <a href="tel:+60123456789" class="contact-link">+6018 - 310 2567</a>
+                </div>
+
+                <div class="card contact-item fade-in">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/akmal-hariz-4307b6291/" target="_blank" class="contact-link">linkedin.com/Akmal</a>
+                </div>
+
+                <div class="card contact-item fade-in">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/kemar-khan" target="_blank" class="contact-link">kemarkhan</a>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2025 Akmal Hariz Bin Azidi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
